@@ -11,14 +11,20 @@ One of the major challenges I faced while working on this project was aligning a
 
 
 ## Frameworks and Libraries
--[Bootstrap](https://getbootstrap.com/) Utilized for its grid system and responsive design components.
--[GliderJS](https://fonts.google.com/specimen/Roboto)
+-[Bootstrap](https://getbootstrap.com/) 
+
 
 ## External Resource 
--[Roboto](https://fonts.google.com/specimen/Roboto)
--[Fontawesome](https://fontawesome.com)
+-[Lora](https://fonts.google.com/specimen/Lora)
+
+-[Poppins](https://fonts.google.com/specimen/Poppins)
+
+-[Montserrat](https://fonts.google.com/specimen/Montserrat)
+
 
 ## Images
 -Header image is from wallpapers.com
+
 -The two service images are from iStock
+
 -The image in the contact page is from Adobe Stock
