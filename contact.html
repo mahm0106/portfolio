@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EM PORTFOLIO</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <a class="navbar-brand" href="#">EM PORTFOLIO</a>
+        <!-- Toggle button for mobile -->
+        <div class="ml-auto">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <!-- Navigation links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<main id="main-content">
+<div class="wrapper" role="main">
+    <div class="row">
+        <!-- Left column containing contact information -->
+        <div class="col-md-12 col-lg-6">
+            <h1>Contact Me</h1>
+            <h2>Send me a Message</h2>
+        </div>
+        <!-- Right column containing contact image (visible on larger screens) -->
+        <div class="col-md-12 col-lg-6 d-none d-md-block text-center" role="img" aria-label="Contact Image">
+            <img src="images/contact-image.png" alt="Contact image" class="contact_img">
+        </div>
+    </div>
+
+    <!-- Contact form section -->
+    <div class="contact" role="form">
+        <form>
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Labels and input fields for name, email, and subject -->
+                    <label class="information-label" for="fullname">Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" aria-label="Full Name" required><br><br>
+                    <label class="information-label" for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" aria-label="Email" required><br><br>
+                    <label class="information-label" for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject" aria-label="Subject" required><br><br>
+                </div>
+                <div class="col-md-6">
+                    <!-- Label and textarea for the message, and a send button -->
+                    <label class="information-label" for="message">Message:</label><br>
+                    <textarea id="message" class="message-text" cols="50" rows="10" aria-label="Message" required></textarea><br><br>
+                    <button class="send-button" type="submit" role="button">Send</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</main>
+
+<!-- JavaScript libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</main>
+    <!-- Footer section -->
+    <footer role="contentinfo">
+        <div class="wrapper">
+            <div class="row">
+                <!-- Social links -->
+                <div class="col-md-4 socials">
+                    <h3 class="footer-titles">Socials</h3>
+                    <div class="footer-fti">
+                    <a href="https://facebook.com/myportfoliowebsite"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                    <a href="https://twitter.com/myportfoliowebsite"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                    <a href="https://instagram.com/myportfoliowebsite"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                    </div>
+                </div>
+                <!-- Newsletter -->
+                <div class="col-md-4 email-footer">
+                    <h3 class="footer-titles">Newsletter</h3>
+                    <form action="#" class="email-form">
+                        <div class="input-container">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit" class="email-button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- Copyright -->
+                <div class="col-md-4 copyright">
+                    <p>&copy;Eeshan Mahmud, 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
